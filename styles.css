@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #101010;
+  color: rgb(190, 41, 148);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.headshot {
+  width: 400px;
+  height: auto;
+  display: block;
+  border: solid 5px;
+  margin: 40px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 200px;
+  border-color: rgb(190, 41, 148);
+}
+
+.header {
+  width: 100%;
+  height: 80px;
+  display: block;
+  background-color: #101010;
+}
+
+.inner_header {
+  width: 1000px;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.logo_container {
+  height: 100%;
+  display: table;
+  float: left;
+}
+
+.logo_container h1{
+  color: rgb(190, 41, 148);
+  height: 100%;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+}
+
+.logo_container h1 span{
+  font-weight: 800;
+}
+
+.navigation {
+  float: right;
+  height: 100%;
+}
+
+.navigation a {
+  height: 100%;
+  display: table;
+  float: left;
+  padding: 0px 20px;
+}
+
+.navigation a:last-child {
+  padding-right: 0;
+
+}
+
+.navigation a li{
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  color: rgb(190, 41, 148);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 60px;
+  
+}
+
+p {
+  padding: 60px;
+  font-size: 30px;
+}
